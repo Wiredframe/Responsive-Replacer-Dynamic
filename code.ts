@@ -7,7 +7,7 @@ const loadFonts = async (textNode: TextNode) => {
   await Promise.all(fontNames.map(figma.loadFontAsync));
 };
 
-// Define the new line heights as an array
+// Skip updating line heights
 const skipLineHeights = false;
 
 // Get the selected frame
